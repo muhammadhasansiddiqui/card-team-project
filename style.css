@@ -91,50 +91,48 @@ h1 span {
   height: 100%;
   background: radial-gradient(circle,
       rgba(255, 255, 255, 0.25) 0%,
-      rgba(255, 255, 255, 0) 70%);
-  transform: scale(0);
-  transition: transform 0.5s ease;
-}
-
-.boton-elegante:hover::after {
-  transform: scale(4);
-}
-
-.boton-elegante:hover {
-  border-color: #666666;
-  background: #292929;
-}
-
-.cricket-area-heading {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding-top: 45px;
-  padding-bottom: 60px;
-}
-
-.cricket-area-cards-main-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 99.99%;
-  height: 70vh;
-  background-color: red;
-}
-
-.card-1-for-cricket-cards {
-  display: flex;
-  flex-direction: row;
-  border-radius: 15px;
-  background-color: aqua;
-  width: 20vw;
-  height: 60vh;
-  background-image: url("https://us.123rf.com/450wm/krisdog/krisdog1605/krisdog160500012/56272038-a-cricket-ball-breaking-wicket-stumps-sports-illustration.jpg?ver=6");
-  background-repeat: no-repeat;
-  background-size: cover;
-  backdrop-filter: blur(2px);
+      rgba(255, 255, 255, 0) 70%
+    );
+    transform: scale(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .boton-elegante:hover::after {
+    transform: scale(4);
+  }
+  
+  .boton-elegante:hover {
+    border-color: #666666;
+    background: #292929;
+  }
+  .cricket-area-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+  .cricket-area-cards-main-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 99.99%;
+    height: 70vh;
+    background-color: red;
+  }
+  .card-1-for-cricket-cards{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: aqua;
+    width: 20vw;
+    height: 60vh;
+    background-image: url("https://us.123rf.com/450wm/krisdog/krisdog1605/krisdog160500012/56272038-a-cricket-ball-breaking-wicket-stumps-sports-illustration.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
 }
 
 
